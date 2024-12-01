@@ -8,13 +8,13 @@ pygame.font.init()
 # Constants
 WINDOW_WIDTH, WINDOW_HEIGHT = 600, 800
 GROUND_LEVEL = 730
-GAME_FONT = pygame.font.SysFont("arial", 50)
-END_FONT = pygame.font.SysFont("arial", 70)
+GAME_FONT = pygame.font.SysFont("arial", 20)
+END_FONT = pygame.font.SysFont("arial", 50)
 SHOW_PATH = False
 
 # Initialize game window
 GAME_WINDOW = pygame.display.set_mode((WINDOW_WIDTH, WINDOW_HEIGHT))
-pygame.display.set_caption("Flying Bird")
+pygame.display.set_caption("Flappy Bird")
 
 # Load and scale images
 def load_image(name, scale=1):
