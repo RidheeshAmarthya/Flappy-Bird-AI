@@ -10,6 +10,9 @@ This project implements an AI that learns to play Flappy Bird using the NEAT (Ne
 - Generation counter and score tracking
 - Customizable game parameters
 
+## Screenshot
+<img src="https://imgur.com/AcK2EYx.png" alt="Flappy Screenshot 2">
+
 ## Requirements
 
 - Python 3.x
